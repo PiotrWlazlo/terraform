@@ -9,8 +9,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    # bucket = "<name>-<surname>-panda-devops-core-8"
-    bucket = "testingpandabucket2"
+    bucket = "Piotr-Wlazlo-panda-devops-core-11"
     key = "infra/terraform.state"
     region = "us-east-1"
   }
